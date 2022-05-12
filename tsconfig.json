@@ -1,0 +1,16 @@
+{
+  "extends": "ts-node/node16/tsconfig.json",
+  "ts-node": {
+    "swc": true
+  },
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "lib": ["es2020"],
+    "allowJs": true,
+    "outDir": "dist",
+    "target": "es2020",
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "Node"
+  }
+}
